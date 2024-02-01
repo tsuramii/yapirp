@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YAPIRP - Yet Another API Requests Practice</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@next/css/pico.classless.min.css" />
+  </head>
+  <body>
+    <main style="max-width: 25rem">
+      <article>
+        <form id="form">
+          <label>
+            Enter a GitHub username
+            <input type="text" placeholder="GitHub Username" id="username" />
+          </label>
+          <button type="submit">Search</button>
+        </form>
+      </article>
+      <article style="display: none" id="userData"></article>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
